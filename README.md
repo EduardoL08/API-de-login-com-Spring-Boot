@@ -52,7 +52,7 @@ Proteção de rotas com autenticação
 
 Armazenamento de usuários em banco
 
-Possível uso de JWT ou outra estratégia de token (Ainda sera implementado)
+ Uso de JWT como estratégia de token de acesso
 
 ---
 🧩 Estrutura do Projeto
@@ -68,6 +68,10 @@ src/
 │     │   └── com/seu/pacote/
 
 │     │       ├── controller/    → Endpoints REST
+
+│     │       ├── DTO/           → 
+
+│     │       ├── Security/      → 
 
 │     │       ├── service/       → Lógica de negócios
 
